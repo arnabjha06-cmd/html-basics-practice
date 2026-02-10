@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website</title>
+    </head>
+    <body>
+        <a href="https://www.google.com/" target="_blank">
+        <button style="font-size:25px;background-color: grey; color: lightblue; border-radius: 10px;">click me</button>
+        </a>
+        <br>
+        <br>
+        <button onclick="doSomething()" style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 10px;">click me twice</button>
+        <p id="greeting">Hello</p>
+        <script>
+            function doSomething(){
+                document.getElementById("greeting").innerHTML="GoodBye";
+            }
+        </script>
+        
+    </body>
+</html>
